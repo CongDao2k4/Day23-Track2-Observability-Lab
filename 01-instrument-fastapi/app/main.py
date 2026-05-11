@@ -27,8 +27,8 @@ from inference import simulate_inference, simulate_gpu_load
 
 
 @asynccontextmanager
-async def lifespan(_: FastAPI):
-    setup_otel()
+async def lifespan(app: FastAPI):
+    setup_otel(app)
     yield
 
 

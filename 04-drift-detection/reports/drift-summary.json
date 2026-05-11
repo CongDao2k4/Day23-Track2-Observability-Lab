@@ -1,0 +1,4 @@
+{
+  "feature_gpu_util": {"drift": "yes", "score": 0.32, "method": "PSI"},
+  "feature_latency": {"drift": "no", "score": 0.05, "method": "KS"}
+}
